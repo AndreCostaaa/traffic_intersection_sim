@@ -1,0 +1,86 @@
+{	
+	"traffic_lights":[
+		{
+			"x": 770,
+			"y": 342,
+			"direction": "horizontal",
+			"position": "north"
+		},
+		{
+			"x":488,
+			"y":750,
+			"direction": "vertical",
+			"position": "west"
+		},
+		{
+			"x":1155,
+			"y":652,
+			"direction": "vertical",
+			"position": "east"
+		}
+	],
+	"side_walk_lights":[		
+		{
+			"x1": 658,
+			"y1": 451,
+			"x2": 976,
+			"y2": 451,
+			"direction": "vertical",
+			"position": "north"
+		},
+		{
+		
+			"x1": 571,
+			"y1": 518,
+			"x2": 571,
+			"y2": 876,
+			"direction": "horizontal",
+			"position": "west"
+		},
+		{
+			"x1": 1071,
+			"y1": 518,
+			"x2": 1071,
+			"y2": 876,
+			"direction": "horizontal",
+			"position": "east"
+		}
+	],
+	"north":
+		{
+			"exists": true,
+			"hitbox": [683,0,276,300],
+			"hitbox_entrance": [683, 0,138,300],
+			"hitbox_exit": [817,0,138,300],
+			"hitbox_walk_west": [620,0,19,520],
+			"hitbox_walk_east": [980,0,19,520]
+		},
+	"west":
+		{
+			"exists": true,
+			"hitbox": [0,540,450,314],
+			"hitbox_entrance": [0, 690,450,157],
+			"hitbox_exit": [0,540,450,157],
+			"hitbox_walk_north": [0,460,663,19],
+			"hitbox_walk_south": [0,854,800,19]
+		},
+	"east":
+		{
+			"exists": true,
+			"hitbox": [1190,540,440,314],
+			"hitbox_entrance": [1190, 540,440,157],
+			"hitbox_exit": [1190,697,440,157],
+			"hitbox_walk_north": [970,460,630,19],
+			"hitbox_walk_south": [800,854,800,19]
+		},
+	
+	"south":
+		{
+			"exists": false
+	
+		},
+	"free_region":
+		{
+			"hitbox": [450, 300, 740, 548]
+		}
+}

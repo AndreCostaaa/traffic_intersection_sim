@@ -1,0 +1,65 @@
+WIDTH, HEIGHT = 1600, 900
+CIVILIAN_WIDTH, CIVILIAN_HEIGHT = 50,50
+PPU = 32 # Pixels per unit
+FPS = 144
+
+VERSION = "v2.0"
+
+#Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+COLOR_YELLOW = (255, 165, 0)
+COLOR_RED = (255, 0, 0)
+COLOR_GREEN = (0, 200, 0)
+
+#Positions
+NORTH = 0
+WEST = 1
+EAST = 2
+SOUTH = 3
+FREE_ZONE = 4
+
+INITIAL_POSITION = 0
+TURN_POSITION = 1
+
+UNDEF_POSITION = -1
+
+#Direction civilian
+UP = 0
+DOWN = 1
+LEFT = 2
+RIGHT = 3
+
+#Traffic Lights
+LIGHTS_DISTANCE = 18
+
+#Steering
+STEERING_RIGHT = -90
+STEERING_LEFT = 90
+NO_STEERING = 0
+
+#Direction
+VERTICAL = 1
+HORIZONTAL = 2
+
+#
+ENTRANCE = 0
+EXIT = 1
+
+#Car characteristics
+SPORTS_CAR_SPEED = 5.0
+
+#Communication
+GET = 'G'
+SET = 'S'
+NEW = 'N'
+PERMUTE = 'P'
+CAR = 'C'
+CIVILIAN = 'c'
+TRAFFIC_LIGHT = 'T'
+SIDE_WALK_LIGHT = 't'
+RED = 'r'
+GREEN = 'g'
+YELLOW = 'y'
+CONNECTED = 'k'
+

@@ -1,0 +1,19 @@
+{
+	"car_spawn":
+	{
+		"frequency": 1,
+		"random_routes": false,
+		"routes":
+		[	["east", "west"],
+			["west", "east"],
+			["north", "east"],
+			["west", "north"],
+			["east", "north"]
+		]
+	},
+	"civilian_spawn":
+	{
+		"frequency": 2
+	},
+	"simulation_time": 0
+}

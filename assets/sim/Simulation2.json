@@ -1,0 +1,12 @@
+{
+	"car_spawn":
+	{
+		"frequency": 1,
+		"random_routes": true
+	},
+	"civilian_spawn":
+	{
+		"frequency": 2
+	},
+	"simulation_time": 30
+}
